@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmarterPing</string>
+    <string name="app_logo">SmarterPing</string>
+    
+   
+
+    <string name="settings_id_title">Device identifier</string>
+    <string name="settings_address_title">Server address</string>
+    <string name="settings_address_summary">Domain name track.smarterping.com</string>
+    <string name="settings_port_title">Default Server port</string>
+    <string name="settings_port_summary">Tracking server TCP port</string>
+   
+    <string name="settings_status_title">Service status</string>
+    <string name="settings_status_off">Start</string>
+    <string name="settings_status_on">Stop</string>
+    <string name="settings_status_off_summary">Service stopped</string>
+    <string name="settings_status_on_summary">Service running</string>
+    <string name="settings_extended_title">Extended format</string>
+    <string name="settings_extended_summary">Use new message format</string>
+    <string name="settings_provider_title">Location provider</string>
+    <string name="settings_provider_summary">Source of location data</string>
+    <string-array name="settings_provider_names">
+        <item>GPS provider</item>
+        <item>Network provider</item>
+        <item>Mixed provider</item>
+    </string-array>
+    
+     <string name="settings_interval_title">Frequency</string>
+    <string name="settings_interval_summary">Messages interval in seconds</string>
+    <string-array name="freq_provider_names">
+       <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+    </string-array>
+    
+    
+    <string name="menu_status">Status</string>
+    <string name="menu_about">About</string>
+    <string name="menu_clear">Clear</string>
+    
+    <string name="about_description">Real time GPS tracker for Android devices.</string>
+    <string name="about_license">This application is developed and licensed by Sathya Technosoft.</string>
+    <string name="about_web">For more information visit\nwww.smarterping.com</string>
+	<string name="about_devs">By Sathya Technosoft</string>
+    
+    <string name="status_service_create">Service created</string>
+    <string name="status_service_start">Service started</string>
+    <string name="status_service_destroy">Service destroyed</string>
+    <string name="status_connection_success">Connection succeeded</string>
+    <string name="status_connection_fail">Connection failed</string>
+    <string name="status_send_fail">Send failed</string>
+    <string name="status_location_update">Location update</string>
+    <string name="status_preference_update">Preference update</string>
+    <string name="status_connectivity_change">Connectivity change</string>
+
+</resources>

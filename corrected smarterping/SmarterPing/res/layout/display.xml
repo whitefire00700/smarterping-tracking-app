@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#EBDDE2"
+    >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/Bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Latitude" />
+
+    <TextView
+        android:id="@+id/elatitude"
+        style="@style/BarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Longitude" />
+
+    <TextView
+        android:id="@+id/elongitude"
+        style="@style/BarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/Bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Altitude" />
+
+    <TextView
+        android:id="@+id/ealtitude"
+        style="@style/BarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/Bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Speed" />
+
+    <TextView
+        android:id="@+id/espeed"
+        style="@style/BarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/Bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/edate"
+        style="@style/BarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/Bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="GPS" />
+
+    <TextView
+        android:id="@+id/egps"
+        style="@style/BarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/Bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="GSM" />
+
+    <TextView
+        android:id="@+id/egsm"
+        style="@style/BarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="" />
+
+</LinearLayout>

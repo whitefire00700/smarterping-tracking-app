@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:key="id"
+        style="@style/BarInfo"
+        android:title="@string/settings_id_title" android:selectable="false"/>
+
+    <EditTextPreference
+        style="@style/BarInfo"
+        android:defaultValue="track.smarterping.com"
+        android:key="address"
+        android:summary="@string/settings_address_summary"
+        android:title="@string/settings_address_title" android:selectable="false"/>
+
+    <EditTextPreference
+        style="@style/BarInfo"
+        android:defaultValue="5005"
+        android:key="port"
+        android:numeric="integer"
+        android:summary="@string/settings_port_summary"
+        android:title="@string/settings_port_title" android:selectable="false"/>
+    
+      <ListPreference
+        style="@style/BarInfo"
+        android:defaultValue="10"
+        android:entries="@array/freq_provider_names"
+        android:entryValues="@array/freq_provider_values"
+        android:key="interval"
+        android:summary="@string/settings_interval_summary"
+        android:title="@string/settings_interval_title" />
+
+    <ListPreference
+        style="@style/BarInfo"
+        android:defaultValue="@layout/about"
+        android:entries="@array/settings_provider_names"
+        android:entryValues="@array/settings_provider_values"
+        android:key="provider"
+        android:summary="@string/settings_provider_summary"
+        android:title="@string/settings_provider_title" />
+
+    <CheckBoxPreference
+        style="@style/BarInfo"
+        android:defaultValue="false"
+        android:key="extended"
+        android:summary="@string/settings_extended_summary"
+        android:title="@string/settings_extended_title" />
+
+    <CheckBoxPreference
+        style="@style/BarInfo"
+        android:defaultValue="false"
+        android:key="status"
+        android:summaryOff="@string/settings_status_off_summary"
+        android:summaryOn="@string/settings_status_on_summary"
+        android:title="@string/settings_status_title" />
+
+    
+</PreferenceScreen>
